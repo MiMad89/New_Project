@@ -13,7 +13,7 @@ body {
 ul {
   list-style-type: none;
 }
-.logo {
+.box-bg > .logo-header {
   color: #2196f3;
   font-weight: 700;
   position: absolute;
@@ -29,7 +29,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo:hover {
+.box-bg > .logo-header:hover {
   text-decoration: underline;
 }
 .agency {
@@ -92,7 +92,7 @@ ul {
 .contact:hover {
   text-decoration: underline;
 }
-.mail {
+.box-bg > .mail {
   position: absolute;
   width: 135px;
   height: 16px;
@@ -108,10 +108,10 @@ ul {
   text-decoration: none;
   color: #2196f3;
 }
-.mail:hover {
+.box-bg > .mail:hover {
   text-decoration: underline;
 }
-.tel {
+.box-bg > .tel {
   position: absolute;
   width: 110px;
   height: 16px;
@@ -127,9 +127,10 @@ ul {
   text-decoration: none;
   color: #757575;
 }
-.tel:hover {
+.box-bg > .tel:hover {
   text-decoration: underline;
 }
+/* Sekcja przycisk */
 .bg {
   position: absolute;
   width: 1600px;
@@ -166,7 +167,7 @@ button {
   height: 50px;
   left: 685px;
   top: 280px;
-  
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -178,81 +179,241 @@ button {
   letter-spacing: 0.06em;
   background: #2196f3;
   color: #ffffff;
-  border:#2196f3
+  border: #2196f3;
 }
 button:hover {
   text-decoration: underline;
 }
-.column-1{
+/* Atuty */
+
+.column-1 {
   position: absolute;
-width: 270px;
-height: 75px;
-left: 215px;
-top: 774px;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 774px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
-.column-2{
+.column-2 {
   position: absolute;
-width: 270px;
-height: 75px;
-left: 515px;
-top: 774px;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 774px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
-
+  color: #757575;
 }
-.column-3{
+.column-3 {
   position: absolute;
-width: 270px;
-height: 75px;
-left: 815px;
-top: 774px;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 774px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
-.column-4{
+.column-4 {
   position: absolute;
-width: 270px;
-height: 75px;
-left: 1115px;
-top: 774px;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 774px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 
-letter-spacing: 0.03em;
+  color: #757575;
+}
+.column-style {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color: #757575;
+  color: #212121;
+}
+/* Czym się zajmujemy */
+.job > h2 {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 624px;
+  top: 959px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.classes1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  mix-blend-mode: normal;
+}
+.classes2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+.classes3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+/* Nasz zespół */
+.team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: #f5f4fa;
+}
+.team > h2 {
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  left: 695px;
+  top: 84px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.worker1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+  text-align: center;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.worker2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 186px;
+  text-align: center;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.worker3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 186px;
+  text-align: center;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.worker4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 186px;
+  text-align: center;
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Stopka */
+
+.footer-bg {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
+.logo-footer {
+  color: #2196f3;
+  font-weight: 700;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: "Oleo Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-footer:hover {
+  text-decoration: underline;
 }
