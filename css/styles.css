@@ -10,6 +10,12 @@ body {
 
   background: #ffffff;
 }
+.warning-box{
+  color:#212121
+}
+.warning{
+  color:white
+}
 ul {
   list-style-type: none;
 }
@@ -21,7 +27,7 @@ ul {
   height: 31px;
   left: 215px;
   top: 24px;
-  font-family: "Oleo Script";
+  font-family: 'Oleo Script';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -395,7 +401,7 @@ button:hover {
   height: 252px;
   left: 0px;
   top: 2097px;
-
+  padding-left: 215px;
   background: #2f303a;
 }
 .logo-footer {
@@ -404,7 +410,6 @@ button:hover {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
   top: 60px;
   font-family: "Oleo Script";
   font-style: normal;
@@ -416,4 +421,8 @@ button:hover {
 }
 .logo-footer:hover {
   text-decoration: underline;
+}
+.contact-list{
+  text-decoration: none;
+  color:#ffffff
 }
