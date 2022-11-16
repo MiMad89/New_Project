@@ -2,32 +2,23 @@ body {
   font-family: "Roboto";
 }
 .box-bg {
-  position: absolute;
   width: 1600px;
   height: 80px;
-  left: 0px;
-  top: 0px;
 
   background: #ffffff;
 }
-.warning-box{
-  color:#212121
+.warning-box {
+  color: #212121;
 }
-.warning{
-  color:white
+.warning {
+  color: white;
 }
 ul {
   list-style-type: none;
 }
-.box-bg > .logo-header {
+.logo-header {
   color: #2196f3;
-  font-weight: 700;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: 'Oleo Script';
+  font-family: "Oleo Script";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -35,16 +26,10 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.box-bg > .logo-header:hover {
+.logo-header:hover {
   text-decoration: underline;
 }
 .agency {
-  position: absolute;
-  width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -59,12 +44,6 @@ ul {
   text-decoration: underline;
 }
 .portfolio {
-  position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -79,12 +58,6 @@ ul {
   text-decoration: underline;
 }
 .contact {
-  position: absolute;
-  width: 51px;
-  height: 16px;
-  left: 656px;
-  top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -92,19 +65,12 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-
   color: #212121;
 }
 .contact:hover {
   text-decoration: underline;
 }
 .box-bg > .mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -118,12 +84,6 @@ ul {
   text-decoration: underline;
 }
 .box-bg > .tel {
-  position: absolute;
-  width: 110px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -138,21 +98,9 @@ ul {
 }
 /* Sekcja przycisk */
 .bg {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
   background: #2f303a;
 }
 .text-bg {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 120px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -168,12 +116,6 @@ ul {
 }
 
 button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 685px;
-  top: 280px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -193,64 +135,33 @@ button:hover {
 /* Atuty */
 
 .column-1 {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 774px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .column-2 {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 774px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .column-3 {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 815px;
-  top: 774px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .column-4 {
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 1115px;
-  top: 774px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -273,12 +184,6 @@ button:hover {
 }
 /* Czym się zajmujemy */
 .job > h2 {
-  position: absolute;
-  width: 352px;
-  height: 42px;
-  left: 624px;
-  top: 959px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -290,44 +195,17 @@ button:hover {
   color: #212121;
 }
 .classes1 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
   mix-blend-mode: normal;
 }
 .classes2 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1061px;
 }
 .classes3 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1061px;
 }
 /* Nasz zespół */
 .team {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-
   background: #f5f4fa;
 }
 .team > h2 {
-  position: absolute;
-  width: 210px;
-  height: 42px;
-  left: 695px;
-  top: 84px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -338,53 +216,30 @@ button:hover {
   color: #212121;
 }
 .worker1 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 186px;
   text-align: center;
   background: #ffffff;
-  /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .worker2 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 186px;
   text-align: center;
   background: #ffffff;
-  /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .worker3 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 186px;
   text-align: center;
   background: #ffffff;
-  /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .worker4 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 186px;
   text-align: center;
   background: #ffffff;
 
@@ -396,21 +251,11 @@ button:hover {
 /* Stopka */
 
 .footer-bg {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   padding-left: 215px;
   background: #2f303a;
 }
 .logo-footer {
   color: #2196f3;
-  font-weight: 700;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  top: 60px;
   font-family: "Oleo Script";
   font-style: normal;
   font-weight: 700;
@@ -422,7 +267,15 @@ button:hover {
 .logo-footer:hover {
   text-decoration: underline;
 }
-.contact-list{
+
+.contact-link {
   text-decoration: none;
-  color:#ffffff
+  color: #757575;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+.contact-first {
+  color: white;
 }
